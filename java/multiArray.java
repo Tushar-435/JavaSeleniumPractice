@@ -15,6 +15,15 @@ public class multiArray {
 
         System.out.println("number of rows:"+ a.length); 
         System.out.println("number of columns:"+ a[0].length);
+
+        // read values from array
+        System.out.println("read number from array:"+ a[1][0]);
+
+        for(int i=0; i<a.length; i++){
+            for(int j=0; j<a[i].length; j++){
+                System.out.print(a[i][j]+" ");
+            }
+        }
     }
     
 }
